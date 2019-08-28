@@ -1,8 +1,8 @@
 # COMP1730/6730 S2 2019 - Homework 4
 # Submission is due 11:55pm, Monday the 23rd of September, 2019.
 
-# YOUR ANU ID: uNNNNNNN
-# YOUR NAME:
+# YOUR ANU ID: u6234544
+# YOUR NAME: Xuan Feng
 
 # Implement the function max_increase below.
 # (The statement "pass" is just a placeholder that does nothing: you
@@ -11,7 +11,17 @@
 # and write a better organised and/or more readable solution.
 
 def max_increase(seq):
-    pass
+    index = 0
+    highest_increase = 0
+    for i in range(1, len(seq)):
+        this_increase = seq[i] - seq[index]
+        if this_increase > 0:
+            if this_increase > highest_increase:
+                highest_increase = this_increase
+        else:
+            index = i
+    return highest_increase
+
 
 
 def test_max_increase():
