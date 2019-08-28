@@ -11,15 +11,15 @@
 # and write a better organised and/or more readable solution.
 
 def max_increase(seq):
-    index = 0
-    highest_increase = 0
+    index = 0 # The index of the starting element in the increasing sequence
+    highest_increase = 0 # The max increase value
     for i in range(1, len(seq)):
-        this_increase = seq[i] - seq[index]
+        this_increase = seq[i] - seq[index] # To calculate the increase value so far
         if this_increase > 0:
             if this_increase > highest_increase:
-                highest_increase = this_increase
+                highest_increase = this_increase # To record the max increase value
         else:
-            index = i
+            index = i # Once the sequence starts to
     return highest_increase
 
 

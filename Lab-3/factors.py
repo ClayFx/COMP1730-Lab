@@ -9,9 +9,11 @@
 ## placeholder which you should replace with your implementation.
 
 def count_factors(n):
-    """The function first checks whether the input is valid.
-       Then it checks whether the Integer i from [1 ... n] is a factor of n
-       If n % i == 0, it means i is a factor of n.                         """
+    """
+    Then it checks whether the Integer i from [1 ... n] is a factor of n
+    If n % i == 0, it means i is a factor of n.
+    """
+    # The function first checks whether the input is valid.
     if n <= 0:
         raise Exception("Inout Error")
     counter = 0
