@@ -11,6 +11,12 @@
 # and write a better organised and/or more readable solution.
 
 def max_increase(seq):
+    """
+    The function takes in a sequence, and output the max increase value in this sequence.
+    For example, [1.0,3.0,1.0,2.0] -> 2.0
+    :param seq: The input list
+    :return: the max increase value in the sequence
+    """
     index = 0 # The index of the starting element in the increasing sequence
     highest_increase = 0 # The max increase value
     for i in range(1, len(seq)):
@@ -19,7 +25,7 @@ def max_increase(seq):
             if this_increase > highest_increase:
                 highest_increase = this_increase # To record the max increase value
         else:
-            index = i # Once the sequence starts to
+            index = i # Reset the index when this element is smaller than the starting element
     return highest_increase
 
 

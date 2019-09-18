@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f2f437d-6002-477c-9804-dcb61a26e811" name="Default Changelist" comment="" />
+    <list default="true" id="3f2f437d-6002-477c-9804-dcb61a26e811" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab-6/data_analysize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-5/max_increase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-5/max_increase.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +19,18 @@
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.4" value="6" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -40,38 +44,34 @@
           <entry key="duplicate" value="41" />
           <entry key="exercise_4" value="10" />
           <entry key="exercise_4a" value="3" />
-          <entry key="factors" value="28" />
-          <entry key="max_increase" value="25" />
+          <entry key="factors" value="39" />
+          <entry key="max_increase" value="35" />
           <entry key="put_stuff_in_bins" value="195" />
-          <entry key="py" value="2021" />
+          <entry key="py" value="2537" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="60" />
-          <entry key="Python" value="2772" />
+          <entry key="Python" value="3309" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab-3/factors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-            </state>
-          </provider>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab-6/data_analysize.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab-5/max_increase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <marker date="1566974153942" expanded="true" signature="443:755" ph="..." />
+                <marker date="1568787346949" expanded="true" signature="543:1092" ph="..." />
               </folding>
             </state>
           </provider>
@@ -100,7 +100,6 @@
         <option value="$PROJECT_DIR$/Lab-3/Exercise 3.py" />
         <option value="$PROJECT_DIR$/Lab-3/exercise _3.py" />
         <option value="$PROJECT_DIR$/Lab-3/exercise_4.py" />
-        <option value="$PROJECT_DIR$/Lab-3/factors.py" />
         <option value="$PROJECT_DIR$/Lab-4/exercise_4.py" />
         <option value="$PROJECT_DIR$/Lab-4/exercise_4a.py" />
         <option value="$PROJECT_DIR$/Lab-4/closest_matches.py" />
@@ -108,6 +107,8 @@
         <option value="$PROJECT_DIR$/Lab-4/put_stuff_in_bins.py" />
         <option value="$PROJECT_DIR$/Lab-4/exercise_5b.py" />
         <option value="$PROJECT_DIR$/Lab-4/exercise_5a.py" />
+        <option value="$PROJECT_DIR$/Lab-3/factors.py" />
+        <option value="$PROJECT_DIR$/Lab-6/data_analysize.py" />
         <option value="$PROJECT_DIR$/Lab-5/max_increase.py" />
       </list>
     </option>
@@ -135,6 +136,11 @@
               <item name="COMP1730" type="b2602c69:ProjectViewProjectNode" />
               <item name="COMP1730" type="462c0819:PsiDirectoryNode" />
               <item name="Lab-5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="COMP1730" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COMP1730" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab-6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,6 +220,9 @@
       <module name="COMP1730" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab-3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -310,7 +319,7 @@
     <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11603722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11603722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -321,9 +330,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32975295" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49972633" visible="true" weight="0.22497308" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49972633" weight="0.2669537" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50027364" side_tool="true" weight="0.22497308" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32938644" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.27771798" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,20 +441,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab-3/factors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="272">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab-5/max_increase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <marker date="1566974153942" expanded="true" signature="443:755" ph="..." />
+            <marker date="1568787346949" expanded="true" signature="543:1092" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab-6/data_analysize.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
