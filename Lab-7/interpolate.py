@@ -12,21 +12,28 @@
 
 def interpolate(x, y, x_test):
     """
+    This function computes the linear interpolation of the unknown function f at a new point x_test.
+    To approximate the value at a new point x_test, we find the closest known points below and above,
+    say xbelow < x_test and xabove > x_test, draw a straight line between (xbelow, ybelow) and (xabove, yabove),
+    and take the value y’ where this line is at x_test. We assume that x_test is a number, and it is between two values
+    in the x sequence, or possibly equal to a value in the sequence.
 
-    :param x:
-    :param y:
-    :param x_test:
-    :return:
+    :param x: A sample sequence of real numbers. It contains the x_axis value.
+    :param y: A sample sequence of real numbers. It contains the y_axis value.
+    :param x_test: A new value of x_axis.
+    :return: The predicted value of x_test, that is, f(x_test).
     """
     for index in range(len(x)):
-        if x[index] == x_test:
-            return y[index]
+        if x[index] == x_test: # x_test equal to the k-th element in sequence x, where k = index.
+            return y[index] # The output should be the k-th element in sequence y, where k = index.
         elif x[index] < x_test and x[index+1] > x_test:
-            x1 = x[index]
-            x2 = x[index + 1]
-            y1 = y[index]
-            y2 = y[index + 1]
-            res = (y2-y1)/(x2-x1)*(x_test-x1)+y1
+            # The following code is to rename the variables so that it is easy to read.
+            x_below = x[index]
+            y_below = y[index]
+            x_above = x[index + 1]
+            y_above = y[index + 1]
+            # This is the arithmetical solution of y'.
+            res = (y_above - y_below) / (x_above - x_below) * (x_test - x_below) + y_below
             return res
 
 
