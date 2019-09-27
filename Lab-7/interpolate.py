@@ -12,10 +12,8 @@
 
 def interpolate(x, y, x_test):
     """
-    This function computes the linear interpolation of the unknown function f at a new point x_test.
-    To approximate the value at a new point x_test, we find the closest known points below and above,
-    say xbelow < x_test and xabove > x_test, draw a straight line between (xbelow, ybelow) and (xabove, yabove),
-    and take the value y’ where this line is at x_test. We assume that x_test is a number, and it is between two values
+    This function computes the linear interpolation of the unknown function f at a new point x_test, by considering
+    the closest known points below and above x_test. We assume that x_test is a number, and it is between two values
     in the x sequence, or possibly equal to a value in the sequence.
 
     :param x: A sample sequence of real numbers. It contains the x_axis value.
@@ -32,7 +30,8 @@ def interpolate(x, y, x_test):
             y_below = y[index]
             x_above = x[index + 1]
             y_above = y[index + 1]
-            # This is the arithmetical solution of y'.
+            # This is the arithmetical solution of y': draw a line between (x_below, y_below) and (x_above, y_above),
+            # then take the value where this line is at x_test.
             res = (y_above - y_below) / (x_above - x_below) * (x_test - x_below) + y_below
             return res
 
